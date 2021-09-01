@@ -5,30 +5,41 @@
   <meta charset="UTF-8">
   <!-- Do a better one later -->
   <title>Contact Sheet</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <header id="header">
     <h1>Contact Information Collection</h1>
+    <p>Relevant Links:</p>
+    <a href="#contactsheet">Enter Contact</a>
+    <a href="https://github.com/lamperouge1218">My Github</a>
+    <a href="mailto: philbohn1791@gmail.com">Contact Me</a>
   </header>
 
-  <div class="container">
-    <form action="action_page.php">
-  
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name...">
-  
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+  <div>
+    <img src="./assets/contactpageimage.webp" alt="contact information section" class="center"/>
+  </div>
 
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Your Email Address...">
-   
-      <input type="submit" value="Submit">
+  <a id="contactsheet">
+    <section class="container">
+      <h2 class="centertext">Please Enter Your Contact Information</h2>
+        <form action="action_page.php">
   
-    </form>
-  </div> 
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+  
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Your Email Address...">
+   
+       <input type="submit" value="Submit">
+  
+      </form>
+   </section>
+  </a>   
 
 
   <footer id="footer">
